@@ -1,0 +1,139 @@
+.header-logo {
+  height: 50px;
+  background-image: url("/images/logo.png");
+  background-color: #272727;
+  background-repeat: no-repeat;
+  background-position: 20px  center;
+  background-size: 200px auto; 
+}
+
+.font--size-5 {
+  font-size: 5rem;
+  letter-spacing: 1.5rem;
+  margin-right: -1.5rem;
+}
+
+.font--size-4 {
+  font-size: 3.2rem;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.font--size-2-5 {
+  font-size: 2.7rem;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.font--size-2 {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.font--bold {
+  font-weight:600;
+}
+
+.content__text {
+  height: 70px
+}
+
+.content__text__divider {
+  height: 1px;
+  width: 700px;
+  margin: 40px 0 30px auto;
+  background-color: #ffffff;
+}
+
+.content  {
+  color: #ffffff;
+}
+.content__main {
+  height: 600px;
+  text-align: right;
+  padding-right: 60px;
+  background-image: url("/images/keyvisual.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-shadow: 2px 2px 20px #000000
+}
+
+.content__main .content__area {
+  padding-top: 200px;
+}
+
+.content__access {
+  padding: 80px 70px 100px 70px;
+  background-color: #272727;
+}
+
+.content__access img {
+  width: 600px;
+  height: auto;
+}
+
+.content__access--route {
+  color: #F4EEE4;
+}
+
+.content__location {
+  padding: 80px 70px 100px 70px;
+  background-color: #313131;
+}
+
+.content__catchphrase {
+  padding: 80px 0 80px 0;
+  background-color: #272727;
+  text-align: center;
+}
+
+.content__main-catchphrase {
+  margin-bottom: 30px;
+}
+
+.content__sub-catchphrase {
+  line-height: 3rem;
+}
+
+.content__room {
+  padding: 80px 70px 100px 70px;
+  background-color: #313131;
+}
+
+.content__title {
+  margin-bottom: 60px;
+}
+.content__title-accent  {
+  color: #D7AE6A;
+}
+
+.flex-container {
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+.content__image img{
+  width: 320px;
+}
+
+.content__contact {
+  padding: 70px 0 70px 0;
+  background-color: #313131;
+  text-align: center;
+}
+
+.content a {
+  text-decoration: underline;
+}
+.content__divider {
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.content__area {
+  width: 1060px;
+  margin: 0 auto;
+}
