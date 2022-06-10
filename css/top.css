@@ -1,6 +1,6 @@
 .header-logo {
   height: 50px;
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   background-color: #272727;
   background-repeat: no-repeat;
   background-position: 20px  center;
@@ -13,20 +13,28 @@
   margin-right: -1.5rem;
 }
 
-.font--size-4 {
-  font-size: 3.2rem;
+.font--size-4-5 {
+  font-size: 4rem;
   letter-spacing: 0.5rem;
   margin-right: -0.5rem;
 }
 
+.font--size-4 {
+  font-size: 3.0rem;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+
+
 .font--size-2-5 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   letter-spacing: 0.5rem;
   margin-right: -0.5rem;
 }
 
 .font--size-2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 0.5rem;
   margin-right: -0.5rem;
 }
@@ -42,7 +50,7 @@
 .content__text__divider {
   height: 1px;
   width: 700px;
-  margin: 40px 0 30px auto;
+  margin: 40px 0 40px auto;
   background-color: #ffffff;
 }
 
@@ -52,8 +60,8 @@
 .content__main {
   height: 600px;
   text-align: right;
-  padding-right: 60px;
-  background-image: url("/images/keyvisual.jpg");
+  padding-right: 30px;
+  background-image: url("../images/keyvisual.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -65,7 +73,7 @@
 }
 
 .content__access {
-  padding: 80px 70px 100px 70px;
+  padding: 90px 80px 100px 80px;
   background-color: #272727;
 }
 
@@ -103,7 +111,7 @@
 }
 
 .content__title {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .content__title-accent  {
   color: #D7AE6A;
@@ -111,7 +119,7 @@
 
 .flex-container {
  display: flex;
- justify-content: center;
+ justify-content: space-between;
  gap: 50px;
 }
 
@@ -136,4 +144,8 @@
 .content__area {
   width: 1060px;
   margin: 0 auto;
+}
+
+.sa {
+  line-height:3rem;
 }
