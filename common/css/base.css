@@ -472,39 +472,10 @@ body {
     flex-direction: column;
 }
 
-.hearder__upper-inner {
-    display: flex;
-    justify-content: end;
-    gap: 40px;
-    padding: 16px 40px;
-    background-color: #0e3718;
-    color: #ffffff;
-    font-size: 1.0rem;
-}
-
-.hearder__item:first-child {
-    flex-grow: 1;
-}
-
-.hearder__bottom-inner {
-    padding: 16px 40px;
-    background-color: white;
-}
-
 /* メインエリア
 -------------------------------------*/
 #mainArea {
     min-width: 420px;
-}
-
-/* コンテンツエリア
--------------------------------------*/
-
-
-/* フッター
--------------------------------------*/
-#footerArea {
-
 }
 
 
